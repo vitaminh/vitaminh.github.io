@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is my super special blog on the internet.
+Hi! I'm a software engineer on the internet.
