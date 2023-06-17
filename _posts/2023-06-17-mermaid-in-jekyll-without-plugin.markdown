@@ -73,6 +73,8 @@ Load the module in the markdown of any page/post you want to use Mermaid by addi
 
 It's possible to load the module by altering the Jekyll theme's templates, but I prefer this approach simply because I didn't want to mess with the theme's files and risk having to deal with it in the future if they get updated.
 
+Additionally, by loading the module only on the pages where we use Mermaid, we're being slightly more efficient by loading it only when necessary.
+
 ## Step 3: Add the Mermaid code
 
 Add a `div` and assign it the `mermaid` class. Within this `div`, add the Mermaid code for your diagram (check out the [extensive documentation][mermaidDocs] for all the stuff you can do):
